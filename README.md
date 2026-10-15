@@ -2,7 +2,7 @@
 
 Информационный чат-бот с полноценной встроенной панелью администратора (CMS), разработанный для автоматизации маркетинга, презентации услуг и лидогенерации для частного преподавателя музыки (гитара, вокал, клавишные).
 
-**🔗 Ссылка на демонстрационную версию бота:** [@Ваш_Тестовый_Бот](https://t.me) *(работает в режиме Staging)*
+**🔗 Ссылка на демонстрационную версию бота:** [@Demo_Music_Teacher_bot](https://t.me//Demo_Music_Teacher_bot) *(работает в режиме Staging)*
 
 ---
 
@@ -40,8 +40,8 @@
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com
-   cd имя_репозитория
+   git clone https://github.com//RomanSazonovPNZ/music-teacher-cms-bot
+   cd music-teacher-cms-bot
    ```
 2. Создайте файл конфигурации окружения `.env` (или `.env.test`) в корне проекта:
    ```text
@@ -53,7 +53,7 @@
    ```
 4. Запустите контейнер с передачей файла окружения:
    ```bash
-   docker run -d --name lionel_bot --restart unless-stopped --env-file .env music_teacher_img
+   docker run -d --name music_teacher_bot --restart unless-stopped --env-file .env music_teacher_img
    ```
 
 ### Способ 2. Классический запуск в виртуальном окружении
@@ -91,4 +91,4 @@
 ```
 
 ---
-👨‍💻 **Автор проекта:** [Роман Сазонов](https://github.com) — 2026.
+👨‍💻 **Автор проекта:** [Роман Сазонов](https://github.com/RomanSazonovPNZ/music-teacher-cms-bot) — 2026.
