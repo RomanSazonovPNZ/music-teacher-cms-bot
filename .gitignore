@@ -30,9 +30,9 @@ Thumbs.db
 *.njsproj
 
 #  скрываем тесты
-tests/
+#tests/
 test_/
-*test*.py
+#*test*.py
 requirements-dev.txt
 
 
